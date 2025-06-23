@@ -565,8 +565,8 @@ void DM1_LX83118_CM002_FHD_init(struct samsung_display_driver_data *vdd)
 	dsi_update_mdnie_data(vdd);
 
 	/* Below data will be genarated by script in Kbuild file */
-	vdd->h_buf = DM1_LX83118_CM002_PDF_DATA;
-	vdd->h_size = sizeof(DM1_LX83118_CM002_PDF_DATA);
+	//vdd->h_buf = DM1_LX83118_CM002_PDF_DATA;
+	//vdd->h_size = sizeof(DM1_LX83118_CM002_PDF_DATA);
 
 	/* Get f_buf from header file data to cover recovery mode
 	 * Below code should be called before any PDF parsing code such as update_glut_map
